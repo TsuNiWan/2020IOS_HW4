@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4348A9BC246FECF600070E1A /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9BB246FECF600070E1A /* AccountData.swift */; };
+		4348A9BE246FED3800070E1A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9BD246FED3800070E1A /* Account.swift */; };
+		4348A9C0246FF0C200070E1A /* AccountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9BF246FF0C200070E1A /* AccountRow.swift */; };
+		4348A9C2246FF4B200070E1A /* AccountList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9C1246FF4B200070E1A /* AccountList.swift */; };
+		4348A9C4246FF58200070E1A /* AccountEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9C3246FF58200070E1A /* AccountEditor.swift */; };
+		4348A9C62470072300070E1A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9C52470072300070E1A /* AppView.swift */; };
+		4348A9C82470075000070E1A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9C72470075000070E1A /* ChartView.swift */; };
+		4348A9CC2470149100070E1A /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9CB2470149100070E1A /* PieChartView.swift */; };
+		4348A9CE24702B1200070E1A /* Histogramview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A9CD24702B1200070E1A /* Histogramview.swift */; };
 		439C52862462598600E3F672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C52852462598600E3F672 /* AppDelegate.swift */; };
 		439C52882462598600E3F672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C52872462598600E3F672 /* SceneDelegate.swift */; };
-		439C528A2462598600E3F672 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C52892462598600E3F672 /* ContentView.swift */; };
 		439C528C2462598700E3F672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C528B2462598700E3F672 /* Assets.xcassets */; };
 		439C528F2462598700E3F672 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C528E2462598700E3F672 /* Preview Assets.xcassets */; };
 		439C52922462598700E3F672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439C52902462598700E3F672 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4348A9BB246FECF600070E1A /* AccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
+		4348A9BD246FED3800070E1A /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4348A9BF246FF0C200070E1A /* AccountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRow.swift; sourceTree = "<group>"; };
+		4348A9C1246FF4B200070E1A /* AccountList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountList.swift; sourceTree = "<group>"; };
+		4348A9C3246FF58200070E1A /* AccountEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountEditor.swift; sourceTree = "<group>"; };
+		4348A9C52470072300070E1A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4348A9C72470075000070E1A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		4348A9CB2470149100070E1A /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		4348A9CD24702B1200070E1A /* Histogramview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histogramview.swift; sourceTree = "<group>"; };
 		439C52822462598600E3F672 /* CRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		439C52852462598600E3F672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		439C52872462598600E3F672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		439C52892462598600E3F672 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		439C528B2462598700E3F672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439C528E2462598700E3F672 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		439C52912462598700E3F672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +74,15 @@
 			children = (
 				439C52852462598600E3F672 /* AppDelegate.swift */,
 				439C52872462598600E3F672 /* SceneDelegate.swift */,
-				439C52892462598600E3F672 /* ContentView.swift */,
+				4348A9BB246FECF600070E1A /* AccountData.swift */,
+				4348A9BF246FF0C200070E1A /* AccountRow.swift */,
+				4348A9C1246FF4B200070E1A /* AccountList.swift */,
+				4348A9C52470072300070E1A /* AppView.swift */,
+				4348A9C72470075000070E1A /* ChartView.swift */,
+				4348A9CD24702B1200070E1A /* Histogramview.swift */,
+				4348A9CB2470149100070E1A /* PieChartView.swift */,
+				4348A9C3246FF58200070E1A /* AccountEditor.swift */,
+				4348A9BD246FED3800070E1A /* Account.swift */,
 				439C528B2462598700E3F672 /* Assets.xcassets */,
 				439C52902462598700E3F672 /* LaunchScreen.storyboard */,
 				439C52932462598700E3F672 /* Info.plist */,
@@ -146,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4348A9C0246FF0C200070E1A /* AccountRow.swift in Sources */,
+				4348A9BE246FED3800070E1A /* Account.swift in Sources */,
+				4348A9C62470072300070E1A /* AppView.swift in Sources */,
+				4348A9CE24702B1200070E1A /* Histogramview.swift in Sources */,
+				4348A9C82470075000070E1A /* ChartView.swift in Sources */,
+				4348A9C4246FF58200070E1A /* AccountEditor.swift in Sources */,
 				439C52862462598600E3F672 /* AppDelegate.swift in Sources */,
+				4348A9CC2470149100070E1A /* PieChartView.swift in Sources */,
 				439C52882462598600E3F672 /* SceneDelegate.swift in Sources */,
-				439C528A2462598600E3F672 /* ContentView.swift in Sources */,
+				4348A9C2246FF4B200070E1A /* AccountList.swift in Sources */,
+				4348A9BC246FECF600070E1A /* AccountData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
